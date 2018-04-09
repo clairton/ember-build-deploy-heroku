@@ -1,4 +1,4 @@
-FROM clairton/ember-cli-alpine
+FROM clairton/ember-cli-alpine:v3.0.0
 
 MAINTAINER Clairton Rodrigo Heinzen <clairton.rodrigo@gmail.com>
 
