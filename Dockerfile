@@ -1,6 +1,6 @@
 FROM clairton/ember-cli-alpine:3.14.0
 
-MAINTAINER Clairton Rodrigo Heinzen <clairton.rodrigo@gmail.com>
+LABEL author="Clairton Rodrigo Heinzen <clairton.rodrigo@gmail.com>"
 
 RUN apk add --update --no-cache ruby-dev ruby-bundler ruby-json git curl
-RUN gem install dpl --no-ri --no-rdoc
+RUN gem install dpl -N
